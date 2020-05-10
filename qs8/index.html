@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="script.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="col-sm-12  container ">
+		
+        <div id="calculator">
+			<div id="heading">
+				<p id="hd"> alphabetical order </p>
+            </div>
+            <div id="body">
+				<div id="head">
+				
+                </div> 
+                <div>
+        <form onsubmit="return arrayin()">
+            <label>Enter Words </label><br>
+            <input type="text" id="input">
+            <button type="submit">Enter</button>
+        </form>
+        <div id="data">Entered Words</div>
+        <button onclick="clearall();">Clear data</button><br>
+        <button onclick="alpha();">Ans</button>
+        <div id="ansdata">Ans</div>
+    </div>
